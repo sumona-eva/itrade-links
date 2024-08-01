@@ -1,17 +1,17 @@
 
 <template>
-    <transition name="fade">
-        <div class="preloader bg-secondary">
-            <div class="loading">
-                <span data-text="P">P</span>
-                <span data-text="O">O</span>
-                <span data-text="P">P</span>
-                <span data-text="L">L</span>
-                <span data-text="A">A</span>
-                <span data-text="R">R</span>
-            </div>
-        </div>
-    </transition>
+<!--    <transition name="fade">-->
+<!--        <div class="preloader bg-secondary">-->
+<!--            <div class="loading">-->
+<!--                <span data-text="P">P</span>-->
+<!--                <span data-text="O">O</span>-->
+<!--                <span data-text="P">P</span>-->
+<!--                <span data-text="L">L</span>-->
+<!--                <span data-text="A">A</span>-->
+<!--                <span data-text="R">R</span>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </transition>-->
 </template>
 <style lang="scss" scoped>
 .preloader {

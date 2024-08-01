@@ -39,7 +39,7 @@ import Banner from "@/components/Banner.vue";
                 text-xl lg:text-2xl">Sale</h2>
             </div>
             <div class="container flex flex-wrap pb-8">
-                <div class="w-full lg:w-1/4 p-3"  v-for="item in 4">
+                <div class="w-1/2 lg:w-1/4 p-3"  v-for="item in 4">
                     <ProductCard />
                 </div>
             </div>
@@ -48,7 +48,7 @@ import Banner from "@/components/Banner.vue";
                 <h2 class="tracking-wider text-primary font-playfair font-bold
                 text-xl lg:text-2xl">All Product</h2>
                 <div class="container flex flex-wrap pb-8">
-                    <div class="w-full lg:w-1/4 p-3"  v-for="item in 8">
+                    <div class="w-1/2 lg:w-1/4 p-3"  v-for="item in 8">
                         <ProductCard />
                     </div>
                 </div>
@@ -59,7 +59,7 @@ import Banner from "@/components/Banner.vue";
             <div class="relative">
                 <img class="w-full h-80 rounded-xl" src="@/assets/images/banner-2.png" alt="" />
 
-                <div class="absolute w-1/2 top-1/2 -translate-y-1/2 left-12 text-white">
+                <div class="absolute  w-1/2 top-1/2 -translate-y-1/2 left-12 text-white">
                     <div class="flex gap-5 py-5">
                         <img class="w-32 h-9" src="@/assets/images/apple.png" alt="" />
                         <img class="w-32 h-9" src="@/assets/images/google.png" alt="" />

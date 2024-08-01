@@ -5,7 +5,7 @@ import Button from "@/components/Button.vue";
 
 <template>
     <div class="flex py-16 gap-5">
-        <div class="w-1/2">
+        <div class="w-full lg:w-1/2">
             <div class="relative">
                 <img class="w-full h-80 rounded-xl" src="@/assets/images/banner-1.png" alt="" />
                 <div class="absolute w-1/2 top-1/2 -translate-y-1/2 left-12 text-white">
@@ -18,7 +18,7 @@ import Button from "@/components/Button.vue";
                 </div>
             </div>
         </div>
-        <div class="w-1/2">
+        <div class="w-full lg:w-1/2">
             <div class="relative">
                 <img class="w-full h-80 rounded-xl" src="@/assets/images/banner-2.png" alt="" />
                 <div class="absolute w-1/2 top-1/2 -translate-y-1/2 left-12 text-white">
