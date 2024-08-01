@@ -25,9 +25,9 @@ const closeModal = () => {
      <SideNav :isOpen="isModalOpened" @modal-close="closeModal"  />
 
     <!--    top header section-->
-    <section class="bg-primary">
+    <section class="bg-primary  hidden lg:block">
         <div class="container">
-            <div class="text-secondary justify-between items-center font-playfair py-2 hidden lg:flex shadow-2xl">
+            <div class="text-secondary justify-between items-center font-playfair py-2 shadow-2xl">
                <div class="flex items-center gap-2">
                    <Icon name="material-symbols:location-on-outline-rounded" class=" text-lg" />
                    <p class="text-sm">Find A Store</p>
@@ -55,7 +55,7 @@ const closeModal = () => {
 
 
     <!-- mid header section -->
-    <section class="bg-primary/85">
+    <section class="bg-primary/85  hidden lg:block">
         <div class="container">
             <div class="flex justify-between">
                 <RouterLink to="/">
@@ -99,9 +99,9 @@ const closeModal = () => {
     <!-- mid header section end-->
 
     <!--  header menu section -->
-    <section class="bg-primary/85">
+    <section class="bg-primary/85 hidden lg:block">
         <div class="container">
-            <div class="flex items-center justify-between lg:flex">
+            <div class="items-center justify-between flex">
                 <div class="w-4/6">
                     <div class="flex items-center py-5 text-secondary font-normal gap-10 font-playfair tracking-wider">
                         <RouterLink to="/" class=" hover:text-white transition-all ease-in-out duration-500">Home</RouterLink>
