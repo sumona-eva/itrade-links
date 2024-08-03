@@ -21,7 +21,7 @@ import Banner from "@/components/Banner.vue";
 <!-- product section -->
         <section class="container">
             <div class="">
-                <h2 class="tracking-wider text-primary py-10 font-playfair font-bold
+                <h2 class="tracking-wider text-black py-10 font-bold
                 text-lg lg:text-3xl">Shopping by Categories </h2>
             </div>
             <ShoppingCategory />
@@ -31,11 +31,11 @@ import Banner from "@/components/Banner.vue";
 <!--            product section-->
 
             <div class="flex gap-3 lg:gap-5">
-                <h2 class=" text-primary font-playfair font-bold
+                <h2 class=" text-black font-bold
                 text-lg lg:text-2xl">New Arrivals</h2>
-                <h2 class="text-slate-400 font-playfair font-bold
+                <h2 class="text-slate-400  font-bold
                 text-lg lg:text-2xl">Best Seller</h2>
-                <h2 class="text-slate-400 font-playfair font-bold
+                <h2 class="text-slate-400  font-bold
                 text-lg lg:text-2xl">Sale</h2>
             </div>
             <div class="container flex flex-wrap pb-8">
@@ -45,7 +45,7 @@ import Banner from "@/components/Banner.vue";
             </div>
 <!--            new Arrivel-->
             <div>
-                <h2 class="tracking-wider text-primary font-playfair font-bold
+                <h2 class="tracking-wider text-black font-bold
                 text-lg lg:text-2xl">All Product</h2>
                 <div class="container flex flex-wrap pb-8">
                     <div class="w-1/2 lg:w-1/4 p-3"  v-for="item in 8">
