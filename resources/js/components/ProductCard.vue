@@ -1,6 +1,6 @@
 <script setup >
 import { RouterLink } from 'vue-router';
-import Button from "@/components/Button.vue";
+import PrimaryButton from "@/components/PrimaryButton.vue";
 
 
 </script>
@@ -13,11 +13,10 @@ import Button from "@/components/Button.vue";
         <div class="flex flex-col gap-2 items-center pb-5">
             <h2 class="text-sm text-center lg:text-lg">Zone Sweatshirt</h2>
             <p class="text-xs text-center">$19.95 – $159.95</p>
-            <Button class="flex items-center gap-3 text-xs my-3 hover:bg-primary/85">
+            <PrimaryButton class="flex items-center gap-3 text-xs my-3 hover:bg-primary/85">
                 Add to Cart
-            </Button>
+            </PrimaryButton>
         </div>
-
     </div>
 </template>
 <style scoped>

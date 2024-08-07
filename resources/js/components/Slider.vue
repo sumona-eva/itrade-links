@@ -31,22 +31,22 @@ const modules = [Autoplay, Pagination, Navigation, EffectFade];
     >
         <SwiperSlide >
             <div class="relative w-full h-full">
-                <img src="https://www.nicdarkthemes.com/themes/cake-bakery/wp/demo/bakery-wordpress-theme/wp-content/uploads/sites/5/2023/10/slide-02.jpg?fbclid=IwZXh0bgNhZW0CMTEAAR2G_GQKblzNpQo-Pd1_fRwKNaQtvl1AB8pJmAUiFVGu5VtGQ0BxaOrwsqA_aem_DOSI03TPNlWs7fwOFIocAQ"
+                <img src="https://electrolyte2-store.myshopify.com/cdn/shop/articles/6-min_bcfdc14b-6ddc-42b6-ab8f-6f0f3c66bc57_625x410_crop_center.jpg?v=1632732656"
                  class="w-full h-full object-cover" alt="">
                 <div class="content text-center">
-                    <h3 class="text-2xl lg:text-6xl mb-5 font-playfair">Redefining Excellence</h3>
+                    <h3 class="text-2xl lg:text-6xl mb-5 font-playfair">Just to Rock your Mood</h3>
                     <p class="mb-5 font-roboto text-sm lg:text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, autem!</p>
-                    <button class="border-2 border-white px-10 py-2 text-whiite hover:bg-primary font-roboto">More Info</button>
+                    <button class="border-2 border-white px-10 py-2 text-white hover:bg-primary font-roboto">Shop Now</button>
                 </div>
             </div>
         </SwiperSlide>
         <SwiperSlide >
             <div class="relative w-full h-full">
-                <img src="https://www.nicdarkthemes.com/themes/cake-bakery/wp/demo/bakery-wordpress-theme/wp-content/uploads/sites/5/2023/10/post-04-1024x683.jpg" class="w-full h-full object-cover"  alt="">
+                <img src="https://electrolyte2-store.myshopify.com/cdn/shop/files/mobile-slider-1.jpg?v=1647405255" class="w-full h-full object-cover"  alt="">
                 <div class="content text-center">
-                    <h3 class="text-2xl lg:text-6xl mb-5 font-playfair">Redefining Excellence</h3>
+                    <h3 class="text-2xl lg:text-6xl mb-5 font-playfair">DSLR Camera</h3>
                     <p class="mb-5 font-roboto text-sm lg:text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, autem!</p>
-                    <button class="border-2 border-white px-10 py-2 text-whiite hover:bg-primary font-roboto">More Info</button>
+                    <button class="border-2 border-white px-10 py-2 text-whiite hover:bg-primary font-roboto">Shop Now</button>
                 </div>
             </div>
         </SwiperSlide>
@@ -78,7 +78,7 @@ const modules = [Autoplay, Pagination, Navigation, EffectFade];
             bottom: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(0,0,0, 0.6);
+            background-color: rgba(0,0,0, 0.4);
             z-index: 99;
         }
         img {
