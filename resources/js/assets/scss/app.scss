@@ -73,11 +73,11 @@ body{
     @apply flex items-center w-[24px] h-[24px] relative cursor-pointer;
 }
 .elegance-hamburger-menu__btn span {
-    @apply block absolute w-full h-[3px] bg-secondary transition-all duration-[0.3s] ease-[ease-in-out] before:-top-2 after:top-2;
+    @apply block absolute w-full h-[3px] bg-white transition-all duration-[0.3s] ease-[ease-in-out] before:-top-2 after:top-2;
 }
 .elegance-hamburger-menu__btn span::before,
 .elegance-hamburger-menu__btn span::after {
-    @apply content-[""] block absolute w-full h-[3px] bg-secondary transition-all duration-[0.3s] ease-[ease-in-out];
+    @apply content-[""] block absolute w-full h-[3px] bg-white transition-all duration-[0.3s] ease-[ease-in-out];
 }
 .swiper-button-prev::after, .swiper-button-next::after{
     color:#ffffff !important;

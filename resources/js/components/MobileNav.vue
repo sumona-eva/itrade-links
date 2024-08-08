@@ -14,7 +14,7 @@ const toggleNav = ref(false);
 
                 <div>
                     <RouterLink to="/" class="">
-                        <img class="w-16 h-auto p-2" src="@/assets/images/logo.png"  alt="Logo" >
+                        <img class="w-16 h-auto p-2" src="@/assets/images/logoo.png"  alt="Logo" >
                     </RouterLink>
                 </div>
 
@@ -22,8 +22,8 @@ const toggleNav = ref(false);
                     <!--            menu bar-->
                     <div class="flex gap-3">
                         <div class="relative">
-                            <Icon name="material-symbols-light:shopping-cart-outline-rounded" class=" text-3xl text-secondary" />
-                            <span class="absolute flex items-center justify-center w-4 h-4 bg-secondary rounded-full -top-1 -right-1 text-white text-sm">4</span>
+                            <Icon name="material-symbols-light:shopping-cart-outline-rounded" class=" text-3xl text-white" />
+                            <span class="absolute flex items-center justify-center w-4 h-4 bg-white rounded-full -top-1 -right-1 text-primary text-sm">4</span>
                          </div>
                         <div class="elegance-hamburger-menu" @click="toggleNav = !toggleNav">
                             <div class="elegance-hamburger-menu__btn" :class="{'elegance-hamburger-menu__btn--active' : toggleNav}">
@@ -37,33 +37,31 @@ const toggleNav = ref(false);
                          bg-primary border-2 border-gray-100 overflow-y-scroll">
                          <div class="flex justify-between py-4 px-3">
                             <button  @click="toggleNav = false">
-                                <Icon name="material-symbols:close-small" class=" text-4xl text-secondary" />
+                                <Icon name="material-symbols:close-small" class=" text-4xl text-white" />
                             </button>
 
                             <span class="flex gap-1 text-base text-white font-medium">
-                               Login <Icon name="mdi:account-arrow-right-outline" class=" text-2xl text-secondary" />
+                               Login <Icon name="mdi:account-arrow-right-outline" class=" text-2xl text-white" />
                             </span>
                          </div>
 
                          <div class="px-4 py-3 text-gray-600 ">
-                             <h2 class="tracking-wider font-extrabold text-base text-secondary">Menu</h2>
+                             <h2 class="tracking-wider font-extrabold text-base text-white">Menu</h2>
                              <ul class="py-3 px-2 text-white leading-loose font-semibold text-xs tracking-wide">
-                                 <li class=" uppercase hover:text-secondary">home</li>
-                                 <li class=" uppercase hover:text-secondary">teespace</li>
-                                 <li class=" uppercase hover:text-secondary">shop</li>
-                                 <li class=" uppercase hover:text-secondary">blog</li>
-                                 <li class=" uppercase hover:text-secondary">pages</li>
+                                 <li class=" uppercase">home</li>
+                                 <li class=" uppercase">teespace</li>
+                                 <li class=" uppercase">shop</li>
+                                 <li class=" uppercase">blog</li>
+                                 <li class=" uppercase">pages</li>
                              </ul>
-                            <h2 class="tracking-wider font-extrabold text-base text-secondary">Top Category</h2>
+                            <h2 class="tracking-wider font-extrabold text-base text-white">Top Category</h2>
                             <ul class="py-3 px-2 text-white leading-loose font-semibold text-xs tracking-wide">
-                                <li class=" uppercase hover:text-secondary">trimer-shirt</li>
-                                <li class=" uppercase hover:text-secondary">long-sleeves</li>
-                                <li class=" uppercase hover:text-secondary">sweater</li>
-                                <li class=" uppercase hover:text-secondary">hoodies</li>
-                                <li class=" uppercase hover:text-secondary">tanktop</li>
+                                <li class=" uppercase">trimer-shirt</li>
+                                <li class=" uppercase">long-sleeves</li>
+                                <li class=" uppercase">sweater</li>
+                                <li class=" uppercase">hoodies</li>
+                                <li class=" uppercase">tanktop</li>
                             </ul>
-
-
                         </div>
                     </div>
                 </div>

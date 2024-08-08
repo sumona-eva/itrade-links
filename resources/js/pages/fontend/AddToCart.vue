@@ -1,71 +1,58 @@
 <template>
     <AppLayout>
       <section>
-          <div class="flex flex-wrap p-8">
-            <div class="w-full lg:w-2/3 font-playfair">
-              <h2 class="text-2xl font-bold text-primary py-5">Cart</h2>
-              <div class="flex flex-col lg:flex-row lg:gap-4">
-                <div class="w-full lg:w-1/4 px-5">
-                  <div class="w-full h-auto py-4">
-                    <img class="w-48 h-36 rounded-lg" src="https://www.nicdarkthemes.com/themes/cake-bakery/wp/demo/bakery-wordpress-theme/wp-content/uploads/sites/5/2023/10/product-01.jpg" alt="">
-                  </div>
+
+          <div class="w-full max-w-3xl mx-auto py-20">
+                <div class="flex justify-between">
+                    <h2 class="font-bold text-lg">Your Cart</h2>
+                    <div class="flex items-center justify-between gap-5">
+                        <div>
+                            <p class="text-sm text-gray-500">Subtotal</p>
+                            <span class="font-bold text-lg">৳3000</span>
+                        </div>
+                        <div>
+                            <RouterLink to="/checkout" class="w-56 px-3 py-2 lg:tracking-wide text-sm bg-primary hover:bg-white border border-primary hover:text-primary
+                                    text-white text-center transition-all ease-in-out duration-500">
+                                CheckOut
+                            </RouterLink>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="w-full lg:w-3/4 px-5 ">
-                  <div class="flex flex-col lg:flex-row justify-between">
+                <div class="flex justify-between py-10">
+                    <div class="flex items-center gap-3">
+                        <img class="w-36 h-36" src="https://demo.ishithemes.com/opencart/OPC137/OPC137L02/image/cache/catalog/productsimage/1-370x370.jpg" alt="">
+                        <div>
+                            <h2 class="font-bold text-lg py-2">Apple Cinema 30"</h2>
+                            <p class="text-xs">Varient : Gray</p>
+                            <p class="font-bold text-sm">Price : 3000</p>
+                        </div>
+                    </div>
                     <div>
-                      <h2 class="text-xl font-semibold text-primary py-5">Topaz</h2>
-                      <p class="font-normal text-md pt-3">Starting from $ 0.83</p>
-                      <p class="font-normal text-md pb-3 text-gray-500">24 November 2024 , 1AM</p>
-                    </div>
-                    <div class="flex items-center gap-6 text-gray-500 lg:pr-16">
+                        <div>
+                            <h2 class="font-bold text-lg py-2">Quantity</h2>
+                            <div class="flex gap-8">
 
-                        <p class="font-normal text-md">$ 59.83</p>
-                    
-                      <button class="flex gap-2 items-center justify-center ">
-                        <span class="font-normal text-md text-gray-500">Remove</span>
-                      </button>
+                                <p class="font-bold text-sm">Price : ৳3000</p>
+                                <Icon name="radix-icons:cross-2" class="text-xl text-gray-500"  />
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
 
-              </div>
-            </div>
-
-            <div class="w-full lg:w-1/3 font-playfair pt-20">
-              
-              <div>
-                <div class="flex gap-20 p-5 border bg-gray-200 rounded-lg m-2">
-                  <div>
-                    <h2 class="text-xlfont-semibold text-primary ">Topaz</h2>
-                    <p class="text-md">2 pis * $64 </p>
-                  </div>
-                  <div>
-                    <span> = $125</span>
-                  </div>
+                <div class="flex justify-between">
+                    <h2 class="font-bold text-lg">Subtotal</h2>
+                    <p class="font-bold text-lg">৳3000</p>
                 </div>
+              <div class="my-10">
+                  <RouterLink to="/checkout" class="w-56 px-3 py-2 lg:tracking-wide text-sm bg-primary hover:bg-white border border-primary hover:text-primary
+                                    text-white text-center transition-all ease-in-out duration-500">
+                      CheckOut
+                  </RouterLink>
               </div>
-
-              <div class="p-5 bg-gray-200  rounded-lg m-2">
-                    <ul>
-                        <li class="flex items-center justify-between text-md text-gray-500">
-                            <p>Booking Fee </p> 
-                            <p>$ 50.00</p>           
-                        </li>
-                        <li class="flex items-center justify-between text-md text-gray-500">
-                            <p>Sub Total </p>
-                            <p>$ 125.00</p>
-                        </li>
-                        <li class="flex items-center justify-between  text-xl py-3 font-semibold">
-                            <p>Grant Total </p>
-                            <p>$ 170.00</p>
-                        </li>
-                    </ul>
-                   <RouterLink to="/checkout" class="text-xl text-center bg-secondary text-white  hover:bg-primary w-full block py-1.5 my-2">Proccess to Checkout</RouterLink>
-              </div>
-            </div>
           </div>
-          
+
+
       </section>
     </AppLayout>
   </template>

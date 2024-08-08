@@ -105,7 +105,7 @@ const closeModal = () => {
                 <div class="w-4/6">
                     <div class="flex items-center py-5 text-white font-semibold gap-10 tracking-wider">
                         <RouterLink to="/" class=" hover:text-slate-400 transition-all ease-in-out duration-500">Home</RouterLink>
-                        <RouterLink to="/" class=" hover:text-slate-400 transition-all ease-in-out duration-500">TeeSpace</RouterLink>
+                        <RouterLink to="/all-products" class=" hover:text-slate-400 transition-all ease-in-out duration-500">All Products</RouterLink>
                         <RouterLink to="/" class=" hover:text-slate-400 transition-all ease-in-out duration-500">Shop</RouterLink>
                         <RouterLink to="/" class=" hover:text-slate-400 transition-all ease-in-out duration-500">Blog</RouterLink>
                         <RouterLink to="/" class=" hover:text-slate-400 transition-all ease-in-out duration-500">Pages</RouterLink>
