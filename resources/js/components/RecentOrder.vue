@@ -4,7 +4,7 @@
           <h3 class="p-3 text-2xl text-black">Recent Order</h3>
           <div class="relative overflow-x-auto">
                 <table class="w-full text-sm text-left rtl:text-right text-black bg-white">
-                      <thead class="text-xs text-white uppercase bg-secondary">
+                      <thead class="text-xs text-white uppercase bg-primary">
                           <tr>
                                 <th scope="col" class="px-6 py-3">
                                   Order Id

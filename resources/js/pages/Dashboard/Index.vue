@@ -1,6 +1,7 @@
 <script setup>
  import BarChart from '@/components/BarChart.vue';
  import RecentOrder from '@/components/RecentOrder.vue';
+ import DashboardLayout from "@/components/Layouts/DashboardLayout.vue";
 </script>
 <template>
   <DashboardLayout>

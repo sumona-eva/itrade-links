@@ -1,7 +1,7 @@
 <script setup>
 
-import Header from "@/components/Header.vue";
-import Footer from "@/components/Footer.vue";
+import Header from "@/components/FrontendComponent/Header.vue";
+import Footer from "@/components/FrontendComponent/Footer.vue";
 import PreLoader from "@/components/PreLoader.vue";
 import { onMounted, ref} from 'vue';
 
@@ -20,7 +20,7 @@ onMounted(()=>{
         <header>
             <Header />
         </header>
-      
+
         <main>
             <slot />
         </main>

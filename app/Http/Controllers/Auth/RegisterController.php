@@ -11,11 +11,18 @@ class RegisterController extends Controller
 {
     public function register(Request $request)
     {
+        $request->validation([
+            'name' => 'required|string',
+            'email' => 'required|email',
+            'phone' => 'required',
+            'password' => 'required',
+        ]);
+
         $user = User::create([
             'name' => $request->name,
             'email' => $request->email,
             'phone' => $request->phone,
-            'password' => Hash::make($request->password)
+            'password' => Hash::make($request->password),
         ]);
 
         $token = $user->createToken('user')->plainTextToken;

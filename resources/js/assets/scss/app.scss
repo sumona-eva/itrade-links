@@ -14,11 +14,11 @@
 }
 .overlay::before {
     content: '';
-    @apply absolute top-0 left-0 right-0 bottom-0 w-full h-full bg-secondary bg-opacity-70;
+    @apply absolute top-0 left-0 right-0 bottom-0 w-full h-full bg-primary bg-opacity-70;
 }
 // font family
 body{
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: "DM Sans", sans-serif;
 }
 
 // all-products sidebar css
