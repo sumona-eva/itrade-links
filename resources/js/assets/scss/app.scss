@@ -6,7 +6,7 @@
 
   }
 .container {
-    @apply mx-auto max-w-[90%] lg:max-w-[1199px] 2xl:max-w-[1320px];
+    @apply mx-auto w-full px-3 lg:max-w-[1199px] 2xl:max-w-[1320px];
 }
 
 .overlay {

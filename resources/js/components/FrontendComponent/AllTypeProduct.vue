@@ -120,7 +120,7 @@ import PrimaryButton from "@/components/PrimaryButton.vue";
         </div>
 
         <div class="container flex flex-wrap pb-16">
-            <div class="w-1/2 lg:w-1/5 p-3">
+            <div class="w-1/2 lg:w-1/5 lg:p-3">
                 <!--   product-1 -->
                 <div class="flex flex-col overflow-hidden border border-gray-300">
                     <RouterLink to="/single-product" class="w-ful h-full flex flex-col items-center justify-between cursor-pointer group">

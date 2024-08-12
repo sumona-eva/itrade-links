@@ -50,17 +50,16 @@ import {RouterLink} from "vue-router";
                                            placeholder="Your Email">
                                     <button class=" bg-white border-2 border-secondary text-primary text-center px-2 py-[6px] font-semibold">Subscribe</button>
                                 </div>
-                                <div class="flex gap-3">
-                                    <Icon name="material-symbols:phone-in-talk-watchface-indicator-outline" class=" text-lg text-slate-300" />
-                                    <p class="text-secondary text-xs font-normal py-5 lg:py-0 lg:pb-5">09678-666777</p>
-                                    <Icon name="ic:outline-mail-outline" class=" text-lg text-slate-300" />
-                                    <p class="text-secondary text-xs font-normal py-5 lg:py-0 lg:pb-5">support@itradelink.com</p>
-                                </div>
-<!--                                <div class="pb-8">-->
-<!--                                    <RouterLink to="/">-->
-<!--                                        <img class="w-16 h-auto" src="@/assets/images/logoo.png" alt="" />-->
-<!--                                    </RouterLink>-->
-<!--                                </div>-->
+                                <ul class="flex flex-col lg:flex-row items-center lg:justify-center py-5 gap-3">
+                                   <li class="flex items-center gap-2">
+                                       <Icon name="material-symbols:phone-in-talk-watchface-indicator-outline" class=" text-md text-slate-300" />
+                                       <p class="text-secondary text-xs font-normal">09678-666777</p>
+                                   </li>
+                                   <li class="flex items-center gap-2">
+                                       <Icon name="ic:outline-mail-outline" class=" text-md text-slate-300" />
+                                       <p class="text-secondary text-xs font-normal">support@itradelink.com</p>
+                                   </li>
+                                </ul>
                                 <ul class="text-slate-300 tracking-widest font-roboto text-sm lg:text-xl font-normal leading-loose">
                                     <li class="flex justify-center lg:justify-start gap-3">
                                         <Icon name="typcn:social-twitter" class=" text-xl text-slate-300" />

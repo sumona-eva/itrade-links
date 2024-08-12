@@ -1,58 +1,82 @@
-<template>
-    <AppLayout>
-      <section>
-          <div class="w-full max-w-5xl mx-auto py-20">
-              <div class="flex flex-wrap">
-                  <div class="w-full lg:w-2/3">
-                      <h2 class="text-2xl font-bold text-primary p-5">Select Address</h2>
-                      <div class="flex flex-col lg:flex-row lg:gap-4">
-                          <div class="w-full lg:w-1/2 h-full border-4 p-5 shadow-lg">
-                              <p class="text-xl font-medium text-primary">Address</p>
-                              <ul class="text-sm font-normal py-3">
-                                  <li>Mirpur, dhaka</li>
-                                  <li>sum@sum.com</li>
-                                  <li>1997743456</li>
-                                  <li>Area: Dhaka & Delivery Charge: 120 BDT</li>
-                              </ul>
-                          </div>
-                      </div>
-                  </div>
-
-                  <div class="w-full lg:w-1/3 font-playfair">
-                      <h2 class="text-2xl font-bold text-primary py-5 px-5">Review Order Details</h2>
-
-                      <div class="p-5 bg-gray-200  rounded-lg m-2">
-                          <ul>
-                              <li class="flex items-center justify-between text-md text-gray-500">
-                                  <p>Booking Fee </p>
-                                  <p>$ 50.00</p>
-                              </li>
-                              <li class="flex items-center justify-between text-md text-gray-500">
-                                  <p>Sub Total </p>
-                                  <p>$ 125.00</p>
-                              </li>
-                              <li class="flex items-center justify-between  text-lg py-3 font-semibold">
-                                  <p>Grant Total </p>
-                                  <p>$ 170.00</p>
-                              </li>
-                          </ul>
-                          <div class="px-2 flex gap-5 my-10">
-                              <RouterLink to="/payment" class="w-full px-3 py-2 lg:tracking-widest bg-primary hover:bg-white border border-primary hover:text-primary
-                                text-white text-center transition-all ease-in-out duration-500">Payment</RouterLink>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
-    </AppLayout>
-  </template>
-
 <script setup>
-
+import Container from "@/components/Container.vue";
 import AppLayout from "@/components/Layouts/AppLayout.vue";
 </script>
+<template>
+    <AppLayout>
+        <!--       checkout design -->
+        <Container>
+            <div class="flex flex-wrap">
+                <div class="w-full lg:w-3/4 lg:pr-5 mb-10 lg:mb-0">
+                    <div class="flex">
+                        <div class="w-full lg:w-2/3">
+                            <h2 class="text-2xl font-bold text-primary py-5">Select Address</h2>
+                            <div class="flex flex-col lg:flex-row lg:gap-4">
+                                <div class="w-full lg:w-1/2 h-full shadow-lg border p-2 border-gray-300 rounded-lg">
+                                    <p class="text-xl font-medium text-primary">Address</p>
+                                    <ul class="text-sm font-normal py-2">
+                                        <li>Mirpur, dhaka</li>
+                                        <li>sum@sum.com</li>
+                                        <li>1997743456</li>
+                                        <li>Area: Dhaka & Delivery Charge: 120 BDT</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap shadow-2xl bg-white mt-5">
+                        <div class="w-full lg:w-1/2 mb-3 px-2">
+                            <label for="name"  class="block py-2 font-semibold"> Name</label>
+                            <input type="text" name="name" id="name" class="border border-gray-300 focus:outline-none w-full p-2 rounded-md " placeholder="Your Name">
+                        </div>
+                        <div class="w-full lg:w-1/2 mb-3 px-2">
+                            <label for="number"  class="block py-2 font-semibold"> Mobile Number</label>
+                            <input type="number" name="number" id="number" class="border border-gray-300 focus:outline-none w-full p-2 rounded-md " placeholder="Your Phone Number">
+                        </div>
+                        <div class="w-full lg:w-1/2 mb-3 px-2">
+                            <label for="email"  class="block py-2 font-semibold">E-mail</label>
+                            <input type="email" name="email" id="email" class="border border-gray-300 focus:outline-none w-full p-2 rounded-md " placeholder="Your E-mail">
+                        </div>
+                        <div class="w-full lg:w-1/2 mb-3 px-2">
+                            <label for="city"  class="block py-2 font-semibold"> City</label>
+                            <input type="text" name="city" id="city" class="border border-gray-300 focus:outline-none w-full p-2 rounded-md " placeholder="Your City">
+                        </div>
+                        <div class="w-full lg:w-1/2 mb-3 px-2">
+                            <label for="state"  class="block py-2 font-semibold"> State</label>
+                            <input type="text" name="state" id="state" class="border border-gray-300 focus:outline-none w-full p-2 rounded-md " placeholder="Your State">
+                        </div>
+                        <div class="w-full lg:w-1/2 mb-3 px-2">
+                            <label for="zip"  class="block py-2 font-semibold"> Zip</label>
+                            <input type="number" name="zip" id="city" class="border border-gray-300 focus:outline-none w-full p-2 rounded-md " placeholder="Your ZIP">
+                        </div>
+                        <div class="w-full lg:w-1/2 mb-3 px-2">
+                            <label for="address"  class="block py-2 font-semibold"> Address</label>
+                            <textarea id="address" name="address" rows="4" cols="2" class="border border-gray-300 focus:outline-none w-full p-2 rounded-md " placeholder="Your Address"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/4">
+                    <div class=" py-7 my-5 mt-8 shadow-lg bg-gray-300 px-5">
+                        <div class="flex justify-between items-center">
+                            <p class="text-sm font-medium">Subtotal:</p>
+                            <p class="font-bold text-sm py-2"> ৳3000</p>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <p class="text-sm font-medium">Shipping :</p>
+                            <p class="font-bold text-sm"> ৳50</p>
+                        </div>
 
-<style scoped>
-
-</style>
+                        <div class="flex justify-between items-center py-5">
+                            <p class="text-lg font-bold">Total (TAKA):</p>
+                            <p class="font-bold text-lg"> ৳3050</p>
+                        </div>
+                        <RouterLink to="/payment">
+                            <button class="rounded w-full text-white text-base font-semibold py-1 px-3 lg:tracking-wide bg-primary hover:bg-white border border-primary hover:text-primary
+                                 text-center transition-all ease-in-out duration-500">Payment</button>
+                        </RouterLink>
+                    </div>
+                </div>
+            </div>
+        </Container>
+    </AppLayout>
+</template>

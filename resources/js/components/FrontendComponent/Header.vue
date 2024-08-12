@@ -45,31 +45,31 @@ const closeModal = () => {
                     <img class="w-16 h-auto" src="@/assets/images/logo.png" alt="" />
                 </RouterLink>
                 <div class="flex items-center">
-                    <div class="relative">
-                            <Icon name="ic:outline-search" class=" text-lg text-slate-500 absolute top-1/2 -translate-y-1/2 left-3 " />
+                    <div class="flex">
+<!--                            <Icon name="ic:outline-search" class=" text-lg text-slate-500 absolute top-1/2 -translate-y-1/2 left-3 " />-->
                         <input type="text" id="table-search-users"
-                               class="block p-2 ps-8 text-sm text-primary rounded-lg w-96 bg-white placeholder-slate-500 focus:ring-0 focus:border-white focus:outline-0"
+                               class="block p-2 ps-4 text-sm text-primary  w-96 bg-white placeholder-slate-500 focus:ring-0 focus:border-white focus:outline-0"
                                placeholder="What are you Looking For?">
-                        <button class="absolute right-[1px] top-0 bg-white border-2 border-primary rounded-lg text-primary text-center px-4 py-[5px] font-medium">Search</button>
+                        <button class=" right-[1px] top-0 border bg-gray-300 border-primary text-primary text-center px-4 py-[5px] font-medium">Search</button>
                     </div>
                 </div>
                 <div class="flex gap-8">
                     <div class="flex items-center justify-center gap-6">
-                        <RouterLink to="/" class="group relative">
+                        <RouterLink to="/add-cart" class="group relative">
                             <Icon name="material-symbols-light:shopping-bag-outline-sharp" class="text-2xl text-primary" />
                             <span class="absolute flex items-center justify-center w-4 h-4 bg-primary rounded-full -top-2 -right-1 text-white text-xs">4</span>
                             <div class="absolute bg-primary text-xs text-white py-1 px-2 hidden group-hover:block left-1/2 -translate-x-1/2 top-8 rounded">
                                 <p>Cart</p>
                             </div>
                         </RouterLink>
-                        <RouterLink to="/" class="group relative">
+                        <RouterLink to="/login" class="group relative">
                             <Icon name="streamline:interface-id-user-identification-angle-secure-human-id-person-face-silhouette-security-brackets"
                                   class="text-base text-primary" />
                             <div class="absolute bg-primary text-xs text-white py-1 px-2 hidden group-hover:block left-1/2 -translate-x-1/2 top-8 rounded">
                                 <p>Login</p>
                             </div>
                         </RouterLink>
-                        <RouterLink to="/"  class="group relative">
+                        <RouterLink to="/register"  class="group relative">
                             <Icon name="ic:baseline-app-registration" class="text-xl text-primary" />
                             <div class="absolute bg-primary text-xs text-white py-1 px-2 hidden group-hover:block left-1/2 -translate-x-1/2 top-8 rounded">
                                 <p>Registration</p>

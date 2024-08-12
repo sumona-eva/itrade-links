@@ -37,7 +37,7 @@ onMounted(() => {
         </div>
     </section>
     <section v-else>
-        <div class=" rounded-lg overflow-hidden">
+        <div class="overflow-hidden">
             <Swiper
                 :effect="'fade'"
 
@@ -56,22 +56,22 @@ onMounted(() => {
                 class="mySwiper"
             >
                 <SwiperSlide >
-                    <a href="/" class="block w-full h-40 lg:h-96 bg-slate-200 rounded-lg overflow-hidden">
+                    <a href="/" class="block w-full h-40 lg:h-96 bg-slate-200 overflow-hidden">
                         <img class="w-full h-full" src="https://dvf83rt16ac4w.cloudfront.net/upload/media/1719644143617513.png"/>
                     </a>
                 </SwiperSlide>
                 <SwiperSlide >
-                    <a href="/" class="block w-full h-40 lg:h-96 bg-slate-200 rounded-lg overflow-hidden">
+                    <a href="/" class="block w-full h-40 lg:h-96 bg-slate-200 overflow-hidden">
                         <img class="w-full h-full" src="https://dvf83rt16ac4w.cloudfront.net/upload/media/1719048560196606.png"/>
                     </a>
                 </SwiperSlide>
                 <SwiperSlide >
-                    <a href="/" class="block w-full h-40 lg:h-96 bg-slate-200 rounded-lg overflow-hidden">
+                    <a href="/" class="block w-full h-40 lg:h-96 bg-slate-200 overflow-hidden">
                         <img class="w-full h-full" src="https://dvf83rt16ac4w.cloudfront.net/upload/media/1719048571944881.png"/>
                     </a>
                 </SwiperSlide>
                 <SwiperSlide >
-                    <a href="/" class="block w-full h-40 lg:h-96 bg-slate-200 rounded-lg overflow-hidden">
+                    <a href="/" class="block w-full h-40 lg:h-96 bg-slate-200 overflow-hidden">
                         <img class="w-full h-full" src="https://dvf83rt16ac4w.cloudfront.net/upload/media/1719056622675617.png"/>
                     </a>
                 </SwiperSlide>
