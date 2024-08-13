@@ -7,7 +7,7 @@ import AppLayout from "@/components/Layouts/AppLayout.vue";
         <!--       checkout design -->
         <Container>
             <div class="flex flex-wrap">
-                <div class="w-full lg:w-3/4 lg:pr-5 mb-10 lg:mb-0">
+                <div class="w-full lg:w-3/4 lg:pr-5 mb-10 lg:mb-0 mt-24 lg:mt-5">
                     <div class="flex">
                         <div class="w-full lg:w-2/3">
                             <h2 class="text-2xl font-bold text-primary py-5">Select Address</h2>
@@ -49,10 +49,14 @@ import AppLayout from "@/components/Layouts/AppLayout.vue";
                             <label for="zip"  class="block py-2 font-semibold"> Zip</label>
                             <input type="number" name="zip" id="city" class="border border-gray-300 focus:outline-none w-full p-2 rounded-md " placeholder="Your ZIP">
                         </div>
-                        <div class="w-full lg:w-1/2 mb-3 px-2">
+                        <div class="w-full mb-3 px-2">
                             <label for="address"  class="block py-2 font-semibold"> Address</label>
                             <textarea id="address" name="address" rows="4" cols="2" class="border border-gray-300 focus:outline-none w-full p-2 rounded-md " placeholder="Your Address"></textarea>
                         </div>
+                    </div>
+                    <div class="flex justify-center">
+                        <button class="rounded w-1/2 text-white text-base font-semibold my-10 py-1 px-3 lg:tracking-wide bg-primary hover:bg-white border border-primary hover:text-primary
+                                 text-center transition-all ease-in-out duration-500">Save Address</button>
                     </div>
                 </div>
                 <div class="w-full lg:w-1/4">

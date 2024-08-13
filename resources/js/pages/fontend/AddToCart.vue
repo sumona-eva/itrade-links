@@ -5,7 +5,7 @@ import AppLayout from "@/components/Layouts/AppLayout.vue";
 <template>
     <AppLayout>
         <section class="bg-[url('https://dvf83rt16ac4w.cloudfront.net/upload/media/1705406138408940.png')]
-                      bg-no-repeat bg-cover bg-center pt-16 lg:pt-0">
+                      bg-no-repeat bg-cover bg-center pt-28 lg:pt-0">
             <Container class="py-12">
                 <div class="bg-gray-300 inline-block p-4 rounded-lg">
                     <div class="flex gap-3 items-center">

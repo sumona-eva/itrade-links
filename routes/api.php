@@ -14,7 +14,7 @@ Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:sanctum');
 
-Route::prefix('V1')->middleware(['auth:sanctum', 'throttle:api'])->group( function () {
+Route::prefix('V1')->group( function () {
 
     Route::apiResources([
         'product' => ProductController::class,
@@ -26,3 +26,4 @@ Route::prefix('V1')->middleware(['auth:sanctum', 'throttle:api'])->group( functi
         'setting' => SettingController::class,
     ]);
 });
+

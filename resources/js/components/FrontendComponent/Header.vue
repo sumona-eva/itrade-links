@@ -88,7 +88,7 @@ const closeModal = () => {
         <div class="container items-center justify-center flex">
             <div class="w-full">
                 <div class="flex items-center py-2 text-primary font-semibold gap-10 tracking-wider">
-                    <RouterLink to="/" class=" hover:text-slate-400 transition-all ease-in-out duration-500">All Categories</RouterLink>
+                    <RouterLink to="/all-products" class=" hover:text-slate-400 transition-all ease-in-out duration-500">All Categories</RouterLink>
                     <RouterLink to="/all-products" class=" hover:text-slate-400 transition-all ease-in-out duration-500">Phone</RouterLink>
                     <RouterLink to="/" class=" hover:text-slate-400 transition-all ease-in-out duration-500">iPad & Tab</RouterLink>
                     <RouterLink to="/" class=" hover:text-slate-400 transition-all ease-in-out duration-500">Mac</RouterLink>

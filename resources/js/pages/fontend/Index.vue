@@ -2,10 +2,6 @@
 
 import AppLayout from "@/components/Layouts/AppLayout.vue";
 import ProductCard from "@/components/ProductCard.vue";
-import { RouterLink } from "vue-router";
-import ShoppingCategory from "@/components/ShoppingCategory.vue";
-import Banner from "@/components/Banner.vue";
-import PrimaryButton from "@/components/PrimaryButton.vue";
 import AllTypeProduct from "@/components/FrontendComponent/AllTypeProduct.vue";
 import HeroSection from "@/components/FrontendComponent/HeroSection.vue";
 import useAxios from '@/composables/useAxios.js';
@@ -24,7 +20,7 @@ const modules  = [FreeMode, Navigation, Thumbs,Autoplay];
 <template>
     <AppLayout>
 <!--hero section-->
-        <section class="mt-20 lg:mt-5">
+        <section class="mt-28 lg:mt-5">
 
             <HeroSection />
         </section>
@@ -37,12 +33,11 @@ const modules  = [FreeMode, Navigation, Thumbs,Autoplay];
                 text-lg lg:text-4xl">ALL PRODUCT </h2>
             </div>
             <div class="container flex flex-wrap pb-16">
-                <div class="w-1/2 lg:w-1/5 p-1 lg:p-2" v-for="item in 5">
+                <div class="w-1/2 lg:w-1/5 p-1 lg:p-2 lg:pb-10" v-for="item in 10">
                     <!--   product-1 -->
                     <ProductCard  />
                 </div>
             </div>
-        <AllTypeProduct />
         </section>
         <section class="container">
             <div class="">

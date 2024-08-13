@@ -65,12 +65,28 @@
               </div>
             </div>
         </section>
+        <ul>
+            <li v-for="user in users">
+                {{user?.title}}
+            </li>
+        </ul>
       </AppLayout>
 </template>
 
 <script setup>
   import AppLayout from "@/components/Layouts/AppLayout.vue";
+  import axios from "axios";
+  import {onMounted,ref} from "vue";
 
+ const users = ref(null);
+   const getUser = async () => {
+        const res = await axios.get('https://jsonplaceholder.typicode.com/todos');
+        users.value=res.data;
+   }
+
+onMounted(() => {
+    getUser();
+})
 </script>
 
 <style scoped>

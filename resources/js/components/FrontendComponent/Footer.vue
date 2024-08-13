@@ -7,7 +7,7 @@ import {RouterLink} from "vue-router";
     <footer>
         <div class="bg-primary">
             <div class="container">
-                <div class="relative z-40 lg:px-3 py-3 lg:py-8">
+                <div class="relativ lg:px-3 py-3 lg:py-8">
                     <div class="flex flex-col gap-6 justify-between lg:flex-row">
                         <div class="w-full lg:w-1/4">
                             <div class="text-center lg:text-left py-5 lg:py-0">
@@ -44,9 +44,9 @@ import {RouterLink} from "vue-router";
                             <div class="text-center lg:text-left">
                                 <h2 class="text-secondary text-xl lg:text-2xl font-medium py-5 lg:py-0 lg:pb-5">Newsletter</h2>
                                 <p class="text-secondary text-xs lg:text-sm font-medium py-5 lg:py-0 lg:pb-5">Sign up for get latest news and update</p>
-                                <div class="flex gap-2 pb-3">
+                                <div class="flex gap-2 pb-3 relative">
                                     <input type="email" id="email"
-                                           class="block p-2 ps-3 text-sm text-primary w-56 bg-white placeholder-slate-500 focus:ring-0 focus:border-white focus:outline-0"
+                                           class="block z-10 p-2 ps-3 text-sm text-primary w-56 bg-white placeholder-slate-500 focus:ring-0 focus:border-white focus:outline-0"
                                            placeholder="Your Email">
                                     <button class=" bg-white border-2 border-secondary text-primary text-center px-2 py-[6px] font-semibold">Subscribe</button>
                                 </div>
