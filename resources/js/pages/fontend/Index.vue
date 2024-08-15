@@ -29,10 +29,10 @@ const modules  = [FreeMode, Navigation, Thumbs,Autoplay];
 <!-- product section -->
         <section class="container">
             <div class="">
-                <h2 class="tracking-wider text-black py-20 text-center font-medium
-                text-lg lg:text-4xl">ALL PRODUCT </h2>
+                <h2 class="tracking-wider text-black py-8 lg:py-20 text-center font-bold
+                text-2xl lg:text-4xl">ALL PRODUCT </h2>
             </div>
-            <div class="container flex flex-wrap pb-16">
+            <div class="container flex flex-wrap lg:pb-10">
                 <div class="w-1/2 lg:w-1/5 p-1 lg:p-2 lg:pb-10" v-for="item in 10">
                     <!--   product-1 -->
                     <ProductCard  />
@@ -41,8 +41,8 @@ const modules  = [FreeMode, Navigation, Thumbs,Autoplay];
         </section>
         <section class="container">
             <div class="">
-                <h2 class="tracking-wider text-black py-20 text-center uppercase font-medium
-                text-lg lg:text-4xl">Online Exclusive Products</h2>
+                <h2 class="tracking-wider text-black py-8 lg:pb-16 text-center uppercase font-bold
+                text-2xl lg:text-4xl">Online Exclusive Products</h2>
 
                 <Swiper
                     :breakpoints="{

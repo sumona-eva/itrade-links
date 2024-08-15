@@ -65,11 +65,7 @@
               </div>
             </div>
         </section>
-        <ul>
-            <li v-for="user in users">
-                {{user?.title}}
-            </li>
-        </ul>
+
       </AppLayout>
 </template>
 

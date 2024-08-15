@@ -55,7 +55,7 @@ import AppLayout from "@/components/Layouts/AppLayout.vue";
                         </div>
                     </div>
                     <div class="flex justify-center">
-                        <button class="rounded w-1/2 text-white text-base font-semibold my-10 py-1 px-3 lg:tracking-wide bg-primary hover:bg-white border border-primary hover:text-primary
+                        <button class="rounded w-1/2 text-white text-base font-semibold mt-10 lg:my-10 py-1 px-3 lg:tracking-wide bg-primary hover:bg-white border border-primary hover:text-primary
                                  text-center transition-all ease-in-out duration-500">Save Address</button>
                     </div>
                 </div>
