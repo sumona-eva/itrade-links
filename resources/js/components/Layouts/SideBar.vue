@@ -13,7 +13,7 @@ const props = defineProps({
     <div class="mx-auto">
         <div>
             <div class="bg-white/65">
-                <img class="p-2" src="@/assets/images/logo.png" alt="">
+                <!-- <img class="p-2" src="@/assets/images/logo.png" alt=""> -->
             </div>
             
             <ul class="flex flex-col gap-5 p-5 ">

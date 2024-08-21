@@ -1,32 +1,22 @@
 <script setup>
-
 import Header from "@/components/FrontendComponent/Header.vue";
-import Footer from "@/components/FrontendComponent/Footer.vue";
-import PreLoader from "@/components/PreLoader.vue";
-import { onMounted, ref} from 'vue';
 
-const show = ref(true)
-onMounted(()=>{
-    setTimeout(()=>{
-        show.value = false
-    }, 2500)
-})
 
 </script>
 
 <template>
-    <PreLoader v-if="show"/>
+    <!-- <PreLoader v-if="show"/> -->
     <div class="">
-        <header>
-            <Header />
-        </header>
+ 
+        <Header />
+       
 
         <main>
             <slot />
         </main>
-        <footer>
+        <!-- <footer>
             <Footer />
-        </footer>
+        </footer> -->
 
     </div>
 </template>

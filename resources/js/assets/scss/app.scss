@@ -5,53 +5,22 @@
     --primary: #065f46;
 
   }
-.container {
-    @apply mx-auto w-full px-3 lg:max-w-[1199px] 2xl:max-w-[1320px];
+//   text transparent 
+  .border-text {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
 }
 
-.overlay {
-    @apply relative overflow-hidden;
-}
-.overlay::before {
-    content: '';
-    @apply absolute top-0 left-0 right-0 bottom-0 w-full h-full bg-primary bg-opacity-70;
-}
+
+
 // font family
 body{
     font-family: "DM Sans", sans-serif;
 }
 
-// all-products sidebar css
-.cetagory-links {
-    margin-top: -360px;
-    transition: all ease-in-out 0.3s;
-    opacity: 0;
-    &--active {
-        margin-top: 0;
-        transition: all ease-in-out 0.3s;
-        opacity: 1;
-    }
-}
-.price-links {
-    margin-top: -360px;
-    transition: all ease-in-out 0.3s;
-    opacity: 0;
-    &--active {
-        margin-top: 0;
-        transition: all ease-in-out 0.3s;
-        opacity: 1;
-    }
-}
-.location-links {
-    margin-top: -360px;
-    transition: all ease-in-out 0.3s;
-    opacity: 0;
-    &--active {
-        margin-top: 0;
-        transition: all ease-in-out 0.3s;
-        opacity: 1;
-    }
-}
+
+
 
 .category-filter {
     input[type="checkbox"]:checked + label{
